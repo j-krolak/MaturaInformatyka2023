@@ -1,0 +1,15 @@
+n <- liczba
+
+b = 1;
+last = n % 2
+
+while(n > 0)
+{
+    if(n%2 != last)
+        b++;
+
+    last = n % 2
+    n /= 2;
+}
+
+print(b);
